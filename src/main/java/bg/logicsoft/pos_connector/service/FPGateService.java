@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class FPGateService {
     private final RestTemplate restTemplate;
 
-    @Value("${fpgate.url}")
+    @Value("${fpGate.url}")
     private String fpUrl;
 
     public FPGateService(RestTemplate restTemplate) {
